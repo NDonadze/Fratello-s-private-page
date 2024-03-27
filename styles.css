@@ -1,0 +1,211 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "oswald";
+}
+a{
+    text-decoration: none;
+    color: initial;
+}
+.topbar{
+    width: 100%;
+    height: 60px;
+    background-color: #ef0523;
+    display: inline-block;
+
+}
+.topp1{
+    font-size: 16px;
+    color: white;
+    padding-left: 100px;
+    padding-top: 10px;
+    font-weight: bold;
+}
+.topp2{
+    font-size: 14px;
+    color: white;
+    padding-left: 30px;
+    font-weight: bold;
+}
+.icons{
+    display: inline-block;
+    margin-left: 710px;
+    margin-top: 15px;
+}
+.icon{
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+    margin-left: 10px;
+}
+.logo{
+    width: 67px;
+    height: 65px;
+    margin-left: 100px;
+    margin-top: 7px;
+    display: inline-block;
+}
+header{
+    width: 100%;
+    height: 100px;
+    background-color:#1f1919;
+}
+nav{
+    display: inline-block;
+    margin-left: 500px;
+    list-style: none;
+}
+.nava{
+    display: inline-block;
+}
+li{
+    display: inline-block;
+    padding: 15px;
+}
+.ula{
+    color: black;
+    margin-left: 10px;
+    color: white;
+}
+.sliderphoto{
+    margin-top: 10px;
+    width: 376px;
+    height: 170px;
+}
+.categoriesnav{
+    font-size: 25px;
+    text-align: center;
+    color: rgb(84, 83, 83);
+    font-weight: 700;
+    margin-top: 40px;
+}
+.categories{
+    display: inline-block;
+    margin-top: 50px;
+}
+.equipments{
+    display: inline-block;
+    margin-left: 220px;
+}
+.items{
+    width: 350px;
+    height: 350px;
+    display: inline-block;
+}
+.helmets{
+    display: inline-block;
+}
+.outfit{
+    display: inline-block;
+}
+.accessories{
+    display: inline-block;
+}
+h4{
+   margin-top: 20px;
+   text-align: center;
+   margin-left: 20px;
+   font-size: 18px;
+}
+.brandsnav{
+    font-size: 25px;
+    text-align: center;
+    color: rgb(84, 83, 83);
+    font-weight: 700;
+    margin-top: 120px;
+}
+.brandsphoto{
+    width: 300px;
+    height: 300px;
+}
+.brandwrapper1{
+    display: inline-block;
+    margin-left: 290px;
+}
+.brandwrapper2{
+    display: inline-block;
+    margin-left: 290px;
+}
+.mapsnav{
+    font-size: 25px;
+    text-align: center;
+    color: rgb(84, 83, 83);
+    font-weight: 700;
+    margin-top: 120px;
+}
+.mapphoto{
+    width: 1000px;
+    height: 550px;
+    margin-top: 40px;
+    margin-left: 230px
+}
+.about{
+    width: 100%;
+    text-align: center;
+    height: 330px;
+    background-color: #ef0523;
+    color: white;
+}
+.abouth2{
+    padding: 30px;
+}
+footer{
+    color: white;
+    background-color: #222;
+    width: 100%;
+    height: 400px;
+}
+.footer{
+    display: inline-block;
+    margin-top: 40px;
+    margin-left: 120px;
+}
+.footercontent{
+    width: 230px;
+    height: 200px;
+    text-align: center;
+    display: inline-block;
+    vertical-align: text-top;
+    margin-left: 80px;
+}
+.footerh2{
+    padding-bottom: 20px;
+}
+.afterfooter{
+    height: 40px;
+    width: 100%;
+    background-color: #1f1919;
+    color: white;
+}
+.afterfooterh5{
+    padding: 10px 0px 5px 190px;
+}
+.chatphoto{
+    width: 48px;
+    height: 50px;
+    position: fixed;
+    z-index: 1;
+    top: 640px;
+    left: 1430px;
+}
+.aboutwe{
+    height: 145px;
+    padding: 20px 10px 20px 10px;
+}
+.aboutparagraph{
+    font-size: 18px;
+    color: #222;
+    font-weight: 600;
+}
+
+.gallerywrapper{
+    display: inline-block;
+    margin: 60px;
+}
+.galleryphoto{
+    width: 440px;
+    height: 580px;
+    margin: 10px;
+    border-radius: 20%;
+}
