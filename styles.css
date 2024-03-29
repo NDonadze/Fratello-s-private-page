@@ -8,7 +8,7 @@ a{
     color: initial;
 }
 body{
-    font-family: "roboto" sans-serif;
+    font-family: "poppins";
 }
 .topbar{
     width: 100%;
@@ -25,18 +25,18 @@ body{
     width: 1350px;
 }
 .topp1{
-    font-size: 16px;
+    font-size: 12px;
     color: white;
     padding-left: 100px;
     padding-top: 15px;
-    font-weight: bold;
+    width: 400px;
 }
 .topp2{
+    width: 400px;
     text-align: center;
-    font-size: 14px;
+    font-size: 12px;
     color: white;
-    padding-left: 30px;
-    font-weight: bold;
+    padding-left: 15px;
     margin: 15px 0 10px 0;
 }
 .icons{
