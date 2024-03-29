@@ -253,6 +253,7 @@ footer{
     border-radius: 20%;
 }
 .animationcontainer{
+    margin: 0 auto;
     width: 1520px;
     height: 460px;
     background-color: white;
