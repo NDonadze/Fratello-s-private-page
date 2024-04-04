@@ -55,6 +55,7 @@ body{
     height: 65px;
     margin-left: 100px;
     margin-top: 7px;
+    transition: all;
 }
 header{
     width: 100%;
@@ -84,6 +85,10 @@ nav{
     color: black;
     padding: 15px;
     color: white;
+    transition: all;
+}
+.ula:hover{
+    color: #ef0523;
 }
 .imageslider{
     display: flex;
@@ -315,8 +320,8 @@ footer{
     }  
 }
 .motorcycle{
-    width: 160px;
-    height: 140px;
+    width: 180px;
+    height: 160px;
     position: absolute;
     top: 280px;
     left: -250px;
@@ -330,17 +335,10 @@ footer{
 @keyframes motorcycle {
     0%{
         left: -20%;
-        rotate: 0deg;
-    }
-    45%{
-        left: 25%;
-        rotate: -45deg;
     }
     100%{
         left: 120%;
-        rotate: 0deg;
-    }
-    
+    } 
 }
 .sun{
     width: 100px;
@@ -399,7 +397,7 @@ footer{
     z-index: 3;
     opacity: 70%;
     animation: cloud1;
-    animation-duration: 35s;
+    animation-duration: 60s;
     animation-timing-function: linear;
     animation-iteration-count: infinite;
     animation-delay: 0.5s;
@@ -422,7 +420,7 @@ footer{
     z-index: 5;
     opacity: 70%;
     animation: cloud2;
-    animation-duration: 29s;
+    animation-duration: 45s;
     animation-delay: 9s;
     animation-timing-function: linear;
     animation-iteration-count: infinite;
@@ -444,7 +442,7 @@ footer{
     opacity: 70%;
     z-index: 4;
     animation: cloud3;
-    animation-duration: 25s;
+    animation-duration: 37s;
     animation-timing-function: linear;
     animation-delay: 15s;
     animation-iteration-count: infinite;
@@ -456,4 +454,94 @@ footer{
     to{
         left: 120%;
     }
+}
+.helmets-main{
+    margin: 0 auto;
+    max-width: 1500px;
+    min-height: 880px;
+}
+.helmet-container{
+    display: flex;
+    flex-direction: row;
+    margin: 0px auto;
+    min-height: 650px;
+}
+.aside-wrapper{
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+}
+.aside-search-bar{
+    width: 300PX;
+    height: 50PX;
+    margin: 70px 0px 5px 154px;
+    padding: 10px;
+    border: 1px solid rgb(186, 186, 186);
+}
+.helmet-size-container{
+    margin: 30px 0px 0px 154px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.aside-title{
+    border-left: 4px solid #ef0523;
+    padding-left: 10px;
+    margin-bottom: 15px;
+    font-size: 15px;
+    letter-spacing: 2px;
+    color: rgb(70, 70, 70);
+}
+.aside-size-box{
+    display: flex;
+    justify-content: start;
+    font-size: 14px;
+    gap: 10px;
+    margin-top: 10px;
+    color: rgb(70, 70, 70);
+}
+.helmet-brands-wrapper{
+    margin-top: 70px;
+}
+.helmet-wrapper{
+    min-width: 700px;
+    max-width: 1024px;
+    display: flex;
+    flex-direction: row;
+}
+.helmet-wrapper::before{
+    content: "";
+    width: 1px;
+    height: 800px;
+    background-color: grey;
+    display: flex;
+    margin: 20px 20px 20px 0px;
+    opacity: 30%;
+}
+.helmet-wrapper-title{
+    font-size: 17px;
+    color: rgb(70, 70, 70);
+    margin-top: 40px;
+}
+.helmet-wrapper-title::after{
+    content: "";
+    display: flex;
+    margin: 40px 0px 30px 0px;
+    width: 900px;
+    height: 1px;
+    background-color: rgb(186, 186, 186);
+}
+.helmet-types-wrapper{
+    display: flex;
+    flex-wrap: wrap;
+}
+.helmet-type-child{
+    width: 250px;
+    height: 250px;
+    text-align: center;
+    margin: 40px 30px 20px 30px;
+}
+.helmet-type-image{
+    width: 250px;
+    height: 250px;
 }
